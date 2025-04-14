@@ -2,7 +2,7 @@ import speech_recognition as sr
 recognizer = sr.Recognizer()
 
 
-audio_file = "C:/Users/HP/Desktop/dhaarani/code/python/Rhyme.wav"
+audio_file = "#audio file in wav format"
 
 with sr.AudioFile(audio_file) as source:
     print("Listening to the audio...")
